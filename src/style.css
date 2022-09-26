@@ -1,0 +1,23 @@
+* {
+    background-color: rgb(12, 4, 46);
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.materias {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: centers;
+    width: 70%;
+}
+
+.nome-materia {
+    margin-top: 50px;
+}
+
+img {
+    object-fit: cover;
+    height: 820px;
+    margin-bottom: 40px;
+}
