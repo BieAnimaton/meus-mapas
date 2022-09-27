@@ -12,14 +12,6 @@ import AdSense from 'react-adsense';
 function Banco() {
     return (
         <div>
-            <AdSense.Google
-                client='ca-pub-4481078020462017'
-                slot='5215784884'
-                style={{ display: 'block' }}
-                format='auto'
-                responsive='true'
-                layoutKey='-gw-1+2a-9x+5c'
-            />
             <article>
                 <div className="complexidade">
                     <div>

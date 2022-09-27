@@ -12,14 +12,6 @@ import AdSense from 'react-adsense';
 function Complexidade() {
     return (
         <div>
-            <AdSense.Google
-                client='ca-pub-4481078020462017'
-                slot='5215784884'
-                style={{ display: 'block' }}
-                format='auto'
-                responsive='true'
-                layoutKey='-gw-1+2a-9x+5c'
-            />
             <article>
                 <div className="complexidade">
                     <div>
@@ -30,14 +22,17 @@ function Complexidade() {
                         <h2 className="nome-materia">Algoritmos Gulosos</h2>
                         <img src={complexidade_mapa_2} alt="Mapa 2 de Complexidade de Algortimos" />
                     </div>
-                    <AdSense.Google
-                        client='ca-pub-4481078020462017'
-                        slot='5215784884'
-                        style={{ display: 'block' }}
-                        format='auto'
-                        responsive='true'
-                        layoutKey='-gw-1+2a-9x+5c'
-                    />
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4481078020462017"
+                        crossorigin="anonymous"></script>
+                    <ins class="adsbygoogle"
+                        style={{display: "block", textAlign: "center"}}
+                        data-ad-layout="in-article"
+                        data-ad-format="fluid"
+                        data-ad-client="ca-pub-4481078020462017"
+                        data-ad-slot="6000353138"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({ });
+                    </script>
                     <div>
                         <h2 className="nome-materia">Divisão e Conquista</h2>
                         <img src={complexidade_mapa_3} alt="Mapa 3 de Complexidade de Algortimos" />
