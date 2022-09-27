@@ -47,6 +47,14 @@ function Complexidade() {
                         <h2 className="nome-materia">Programação Dinâmica</h2>
                         <img src={complexidade_mapa_4} alt="Mapa 4 de Complexidade de Algortimos" />
                     </div>
+                    <AdSense.Google
+                        client='ca-pub-4481078020462017'
+                        slot='5215784884'
+                        style={{ display: 'block' }}
+                        format='auto'
+                        responsive='true'
+                        layoutKey='-gw-1+2a-9x+5c'
+                    />
                     <div>
                         <h2 className="nome-materia">Backtracking</h2>
                         <img src={complexidade_mapa_5} alt="Mapa 5 de Complexidade de Algortimos" />

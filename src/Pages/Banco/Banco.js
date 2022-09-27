@@ -47,6 +47,14 @@ function Banco() {
                         <h2 className="nome-materia">Requisitos e Regras de Negócio</h2>
                         <img src={banco_mapa_4} alt="Mapa 4 de Banco de Dados" />
                     </div>
+                    <AdSense.Google
+                        client='ca-pub-4481078020462017'
+                        slot='5215784884'
+                        style={{ display: 'block' }}
+                        format='auto'
+                        responsive='true'
+                        layoutKey='-gw-1+2a-9x+5c'
+                    />
                     <div>
                         <h2 className="nome-materia">Projeto Lógico Relacional I</h2>
                         <img src={banco_mapa_5} alt="Mapa 5 de Banco de Dados" />
