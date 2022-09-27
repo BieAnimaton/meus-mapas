@@ -1,5 +1,5 @@
 import AdSense from 'react-adsense';
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Menu() {
     return (

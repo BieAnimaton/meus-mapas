@@ -8,7 +8,6 @@ import complexidade_mapa_5 from "../../imgs/complexidade/Backtracking.png";
 import complexidade_mapa_6 from "../../imgs/complexidade/Branch and Bound.png";
 
 import AdSense from 'react-adsense';
-import Footer from "../../Components/Footer/Footer";
 
 function Complexidade() {
     return (
