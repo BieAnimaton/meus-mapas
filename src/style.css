@@ -12,12 +12,25 @@
     width: 70%;
 }
 
+h3 {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h3:hover {
+    background: rgb(6, 70, 97);
+    cursor: pointer;
+}
+
+a { /*Link*/
+    text-decoration: none;
+}
+
 .nome-materia {
     margin-top: 50px;
 }
 
 img {
-    object-fit: cover;
-    height: 820px;
+    width: 1280px;
     margin-bottom: 40px;
 }
