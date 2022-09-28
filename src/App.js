@@ -9,6 +9,7 @@ import Home from "./Pages/Home/Home";
 import Banco from "./Pages/Banco/Banco";
 import SO_II from "./Pages/SO_II/SO_II";
 import Arquitetura from "./Pages/Arquitetura/Arquitetura";
+import Circuitos from "./Pages/Circuitos/Ciscuitos";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/banco" element={<Banco />} />
           <Route path="/so_ii" element={<SO_II />} />
           <Route path="/arquitetura" element={<Arquitetura />} />
+          <Route path="/circuitos" element={<Circuitos />} />
         </Routes>
         <Footer />
       </Router>

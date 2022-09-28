@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 function Menu() {
     return (
         <header>
-            <h1>Meus Mapas</h1>
+            <h1><Link to="/">Meus Mapas</Link></h1>
             <h2>Mapas mentais feitos para ajudar nos meus estudos da faculdade.</h2>
             <hr></hr>
             <div className="materias">
                 {/*<Link to="/cake">cake</Link>*/}
-                <Link to="/complexidade"><h3>Complexidade de Algoritmos</h3></Link>
-                <Link to="/banco"><h3>Sistema de Banco de Dados</h3></Link>
-                <Link to="/projeto"><h3>Projeto Interdisciplinar de Computação</h3></Link>
-                <Link to="/so_ii"><h3>Sistemas Operacionais II</h3></Link>
-                <Link to="/arquitetura"><h3>Arquitetura e Organização de Computadores</h3></Link>
-                <Link to="/grafos"><h3>Teoria dos Grafos</h3></Link>
-                <Link to="/circuitos"><h3>Circuitos Eletrônicos</h3></Link>
+                <h3><Link to="/complexidade">Complexidade de Algoritmos</Link></h3>
+                <h3><Link to="/banco">Sistema de Banco de Dados</Link></h3>
+                <h3><Link to="/projeto">Projeto Interdisciplinar de Computação</Link></h3>
+                <h3><Link to="/so_ii">Sistemas Operacionais II</Link></h3>
+                <h3><Link to="/arquitetura">Arquitetura e Organização de Computadores</Link></h3>
+                <h3><Link to="/grafos">Teoria dos Grafos</Link></h3>
+                <h3><Link to="/circuitos">Circuitos Eletrônicos</Link></h3>
             </div>
             <hr></hr>
         </header>
