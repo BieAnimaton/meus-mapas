@@ -1,4 +1,3 @@
-import AdSense from 'react-adsense';
 import { Link } from "react-router-dom";
 
 function Menu() {
@@ -6,14 +5,6 @@ function Menu() {
         <header>
             <h1>Meus Mapas</h1>
             <h2>Mapas mentais feitos para ajudar nos meus estudos da faculdade.</h2>
-            <AdSense.Google
-                client='ca-pub-4481078020462017'
-                slot='5215784884'
-                style={{ display: 'block' }}
-                format='auto'
-                responsive='true'
-                layoutKey='-gw-1+2a-9x+5c'
-            />
             <hr></hr>
             <div className="materias">
                 {/*<Link to="/cake">cake</Link>*/}
