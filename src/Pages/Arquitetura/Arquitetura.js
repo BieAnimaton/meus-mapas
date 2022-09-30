@@ -12,7 +12,7 @@ import Mapa from "../../Components/Mapa/Mapa";
 function Arquitetura() {
     return (
         <article>
-            <div className="arquitetura">
+            <div className="wrap">
                 <Mapa
                     titulo="Padronização de Termos"
                     image={arquitetura_ii_mapa_1}
@@ -42,6 +42,9 @@ function Arquitetura() {
                     titulo="Controlador"
                     image={arquitetura_ii_mapa_6}
                     alt="Mapa 6 de Arquitetura e Organização de Computadores"
+                    textoExtra="Mais informações e alguns códigos:"
+                    textoExtra2="GitHub - Códigos Assembly Neander, Ahmes e Daedalus"
+                    link="https://github.com/BieAnimaton/codigs_Assembly_facul"
                 />
             </div>
         </article>

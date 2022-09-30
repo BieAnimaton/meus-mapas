@@ -8,13 +8,13 @@ function Menu() {
             <hr></hr>
             <div className="materias">
                 {/*<Link to="/cake">cake</Link>*/}
-                <h3><Link to="/complexidade">Complexidade de Algoritmos</Link></h3>
-                <h3><Link to="/banco">Sistema de Banco de Dados</Link></h3>
-                <h3><Link to="/projeto">Projeto Interdisciplinar de Computação</Link></h3>
-                <h3><Link to="/so_ii">Sistemas Operacionais II</Link></h3>
-                <h3><Link to="/arquitetura">Arquitetura e Organização de Computadores</Link></h3>
-                <h3><Link to="/grafos">Teoria dos Grafos</Link></h3>
-                <h3><Link to="/circuitos">Circuitos Eletrônicos</Link></h3>
+                <h3 className="menu"><Link to="/complexidade">Complexidade de Algoritmos</Link></h3>
+                <h3 className="menu"><Link to="/banco">Sistema de Banco de Dados</Link></h3>
+                <h3 className="menu"><Link to="/projeto">Projeto Interdisciplinar de Computação</Link></h3>
+                <h3 className="menu"><Link to="/so_ii">Sistemas Operacionais II</Link></h3>
+                <h3 className="menu"><Link to="/arquitetura">Arquitetura e Organização de Computadores</Link></h3>
+                <h3 className="menu"><Link to="/grafos">Teoria dos Grafos</Link></h3>
+                <h3 className="menu"><Link to="/circuitos">Circuitos Eletrônicos</Link></h3>
             </div>
             <hr></hr>
         </header>

@@ -6,13 +6,14 @@ import complexidade_mapa_3 from "../../imgs/complexidade/Divisão e Conquista.pn
 import complexidade_mapa_4 from "../../imgs/complexidade/Programação Dinâmica.png";
 import complexidade_mapa_5 from "../../imgs/complexidade/Backtracking.png";
 import complexidade_mapa_6 from "../../imgs/complexidade/Branch and Bound.png";
+import complexidade_mapa_7 from "../../imgs/complexidade/Compressão de Dados.png";
 
 import Mapa from "../../Components/Mapa/Mapa";
 
 function Complexidade() {
     return (
         <article>
-            <div className="complexidade">
+            <div className="wrap">
                 <Mapa
                     titulo="Análise de Algorimo"
                     image={complexidade_mapa_1}
@@ -42,6 +43,11 @@ function Complexidade() {
                     titulo="Branch and Bound"
                     image={complexidade_mapa_6}
                     alt="Mapa 6 de Complexidade de Algortimos"
+                />
+                <Mapa
+                    titulo="Compressão de Dados"
+                    image={complexidade_mapa_7}
+                    alt="Mapa 7 de Complexidade de Algortimos"
                 />
             </div>
         </article>

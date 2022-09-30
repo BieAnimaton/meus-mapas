@@ -1,6 +1,12 @@
 * {
-    background-color: rgb(12, 4, 46);
     color: #FAFAFA;
+}
+
+body {
+    background-color: rgb(24, 61, 95);
+}
+
+h1, h2 {
     text-align: center;
 }
 
@@ -9,7 +15,7 @@
     display: flex;
     justify-content: space-around;
     align-items: centers;
-    width: 70%;
+    width: 70%;;
 }
 
 h3 {
@@ -17,23 +23,59 @@ h3 {
     border-radius: 15px;
     margin-left: 5px;
     margin-right: 5px;
+    transition: 0.3s;
 }
 
-h3:hover, h3:hover > a {
-    background: rgb(6, 70, 97);
+.menu:hover, .menu:hover > a {
+    background: rgb(38, 96, 150);
     cursor: pointer;
 }
 
 a { /*Link*/
     text-decoration: none;
+    transition: 0.3s;
 }
-
 
 .nome-materia {
     margin-top: 50px;
 }
 
 img {
-    width: 1280px;
-    margin-bottom: 40px;
+    width: 1080px;
+    margin: auto;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.mapa {
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.texto-extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-extra a {
+    background: rgb(38, 96, 150);
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.texto-extra a:hover {
+    background: rgb(36, 87, 135);
+}
+
+footer {
+    margin-top: 80px;
+    text-align: center;
 }

@@ -12,7 +12,7 @@ import Mapa from "../../Components/Mapa/Mapa";
 function Banco() {
     return (
         <article>
-            <div className="banco">
+            <div className="wrap">
                 <Mapa
                     titulo="Engenharia de Banco de Dados"
                     image={banco_mapa_1}

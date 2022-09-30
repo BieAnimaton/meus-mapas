@@ -7,7 +7,7 @@ import Mapa from "../../Components/Mapa/Mapa";
 function Circuitos() {
     return (
         <article>
-            <div className="banco">
+            <div className="wrap">
                 <Mapa
                     titulo="Fórmulas gerais e conversões"
                     image={circuitos_mapa_1}
